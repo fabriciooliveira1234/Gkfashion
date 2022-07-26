@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="GK Fashion">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div id="container" class="clearfix">
+		<header>
+			<h1><a href="index.html">GK Fashion</a></h1>
+			<p class="sacola">Nenhum item na sacola de compras</p>
+			<nav class="menu-principal">
+				<ul>
+					<li><a href="#">Sua Conta</a></li>
+					<li><a href="#">Lista de Desejos</a></li>
+					<li><a href="cartao_fidelidade.html">Cartão Fidelidade</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="contato">
+
+				<h2>Entre em contato</h2>
+
+				<div id="form">
+					<form method="POST">
+						<fieldset>
+							<label id="name">Nome:</label>
+							<input type="text" id="nome" name="nome" placeholder="digite seu nome" required="required" minlength="4">
+							<label id="email">Email:</label>
+							<input type="email" name="email" placeholder="digite seu email">
+							<label>Motivo:</label>
+							<select>							
+							<option value="critica">Críticas</option>
+								<option value="elogio">Elogios</option>
+								<option value="outros">Outros</option>								
+							</select>
+							<textarea name="textarea" placeholder="Deixe seu comentário."></textarea>
+							<input type="submit" value="Enviar">
+						</fieldset>
+					</form>
+				</div>
+
+			</section>
+
+		</main>
+		<footer class="clearfix">
+			<div class="caixa-footer">
+				<img src="img/logo_rodape.png" alt="logo-rodape" title="Logotipo no rodapé">
+				<p>&copy; Copyright GK Fashion</p>
+				<ul class="social">
+					<li id="facebook"><a href="http://www.facebook.com/gkfashion"></a></li>
+					<li id="twitter"><a href="http://www.twitter.com/gkfashion"></a></li>
+					<li id="google"><a href="http://plus.google.com/gkfashion"></a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,454 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+/* Inicio do css do site*/
+
+body{
+    background: url("../img/background.png");
+    font-family: Arial;
+}
+
+#container{
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    background: url("../img/sobre-background.jpg");
+    width: 940px;
+}
+
+header{
+    position: relative;
+    box-sizing: border-box;
+}
+
+header h1 a{
+    height: 134px;
+    width: 130px;
+    display: block;
+    text-indent: -9999px;
+    background-image: url("../img/logo_GK.png");
+    margin-left: 40px;
+}
+
+h1{
+    box-sizing: border-box;
+    width: 250px;
+}
+
+.sacola{
+    background: url("../img/sacola.png") no-repeat right;
+    text-align: right;
+    position: absolute;
+    width: 235px;
+    top: 0;
+    right: 5px;
+    box-sizing: border-box;
+}
+
+.menu-principal{
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-principal li{
+    display: inline;
+    padding: 10px;
+}
+
+.busca{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    background: #dcdcdc;
+    width: 22.5%;
+    box-sizing: border-box;
+}
+
+.busca h2, .menu-departamentos h2{
+    border-bottom: solid 2px #000000;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+#fom-busca{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.busca, #fom-busca input[type='search']{
+    border-radius: 10px;
+}
+
+#fom-busca input[type='search']{
+    width: 170px;
+    height: 25px;
+}
+
+.menu-departamentos{
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background: #dcdcdc;
+    width: 22.5%;
+    float: left;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.menu-departamentos li{
+    background: #FFF;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li ul li{
+    background: #cccccc;
+}
+
+
+.menu-departamentos li:hover ul{
+    display: block;
+}
+
+.menu-departamentos a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-departamentos a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+#destaque-home{
+    box-sizing: border-box;
+    margin-top: 10px;
+    float: right;
+    width: 75%;
+}
+
+#destaque-home img{
+    box-sizing: border-box;
+}
+
+#caixa-destaque{
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.painel-novidades h2, .painel-vendidos h2{
+    margin: 10px;
+    font-family: 'Passion One', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.painel-novidades{
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    background: #f5dcdc;
+    background: linear-gradient(#f5dcdc,#bebef4);
+    width: 48.45%;
+    height: auto;
+    float: left;
+}
+
+.painel-novidades figure, .painel-vendidos figure{
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0px;
+    width: 140px;
+}
+
+.painel-novidades ol, .painel-vendidos ol{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto 0 7px;
+
+}
+
+.painel-novidades ol li, .painel-vendidos ol li{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    padding: 10px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.painel-novidades img:hover, .painel-vendidos img:hover{
+    width: 160px;
+    height: 160px;
+    transition-timing-function: ease-out;
+    transform: rotate(-5deg);
+    opacity: 0.8;
+}
+
+.painel-vendidos{
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    background: #dcdcf5;
+    background: linear-gradient(#dcdcf5,#f4bebe);
+    width: 48.45%;
+    height: auto;
+    float: left;
+}
+
+#sobre h2, #historia h2, #diferenciais h2{
+    border-bottom: solid 2px #000000;
+    margin: 20px;
+}
+
+figure{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 15px;
+    margin: 0 auto 0 auto;
+    background: #F2EDED;
+}
+
+section#sobre{
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#img-dist{
+    box-sizing: border-box;
+    margin: 0 180px 0 180px;
+}
+
+#familia-teles{
+    box-sizing: border-box;
+    margin: 0 10px 10px 0;
+}
+
+figcaption{
+    box-sizing: border-box;
+    display: block;
+    margin: 10px auto 0px auto;
+    text-align: center;
+}
+
+#img-family-teles{
+    box-sizing: border-box;
+    float: right;
+}
+
+#diferenciais ul{
+    margin: 15px 60px;
+}
+
+#diferenciais ul li{
+    line-height: 1.5;
+}
+
+p {
+    box-sizing: border-box;
+    padding: 15px 45px 0 45px;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #008000;
+}
+
+section a:hover, .menu-principal a:hover{
+    background: #ffff99;
+    text-decoration: underline;
+}
+
+footer{
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    background: url("../img/fundo-rodape.png");
+
+}
+
+.caixa-footer{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;    
+    padding: 10px;
+    overflow: auto;
+}
+
+.caixa-footer p{
+    box-sizing: border-box;
+    display: inline;
+    padding: 30px;
+    vertical-align: center;
+    float: left;
+    color: #cccccc;
+}
+
+.caixa-footer img{
+    margin-left: 30px;
+    vertical-align: center;
+    float: left;
+}
+
+.social{
+    box-sizing: border-box;
+}
+
+.social li{
+    display: inline;
+}
+
+.social a[href*="facebook.com"]{
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    width: 32px;
+    height: 32px;
+    background: url("../img/sociais.png") 0px 0px no-repeat;
+}
+
+.social a[href*="google.com"]{
+    position: absolute;
+    top: 30px;
+    right: 76px;
+    width: 32px;
+    height: 32px;
+    background: url("../img/sociais.png") -44px 0px no-repeat;
+}
+
+.social a[href*="twitter.com"]{
+    position: absolute;
+    top: 30px;
+    right: 32px;
+    width: 32px;
+    height: 32px;
+    background: url("../img/sociais.png") -88px 0px no-repeat;
+}
+
+#caixa-destaque.clearfix::before, .clearfix::after {
+    content: ' ';
+    display: block;
+}
+
+#caixa-destaque.clearfix::after{
+    clear: both;
+}
+#main.clearfix::after{
+    clear: both;
+}
+
+#section-form h2{
+    border-bottom: solid 2px #000000;
+    margin: 20px;
+}
+
+input[type=text], [type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: #FFF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+div#form{
+    display: block;
+    margin: 100px auto 100px auto;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    width: 50%;
+}
+
+textarea{
+    box-sizing: border-box;
+    margin: 5px auto;
+    width: 100%;
+    height: 74px;
+}
+
+
+#fidelidade h2, #contato h2{
+    border-bottom: solid 2px #000000;
+    margin: 20px;
+}
+
+table{
+    margin: 20px auto 20px auto;
+}
+
+tbody tr td{
+    vertical-align: top;
+    padding: 5px 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.tipo{
+    text-align: left;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
